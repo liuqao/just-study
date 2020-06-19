@@ -1,4 +1,4 @@
-package com.liuqao.web;
+package com.liuqao.hello.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,9 +22,9 @@ public class HelloController {
         Map result = new HashMap();
         result.put("tom","hi" );
         result.put("aim","how are you" );
-        result.put("tom","im fine" );
-        result.put("tom","thank you" );
-        result.put("tom","and you?" );
+        result.put("alice","im fine" );
+        result.put("bob","thank you" );
+        result.put("jerry","and you?" );
         return result;
     }
 }
